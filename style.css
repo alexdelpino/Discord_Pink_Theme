@@ -7,7 +7,7 @@
     --channels-default: #FF7DA7;
     --interactive-normal: #E96590;
     --interactive-hover: #E96590;
-    --interactive-active: #FF2467;
+    --interactive-active: rgba(255, 189, 228);
     --interactive-muted: hsla(0,0%,100%,.4);
     --background-primary: #FFE0EA;
     --background-secondary: #FFBCD1;
@@ -38,7 +38,7 @@
     --deprecated-text-input-prefix: #DF6187;
     --primary-btn: #FFDEE75;
     --primary-btn-hover: rgba(255, 134, 166, 0.8);
-    --primary-btn-active: rgba(255, 182, 166);
+    --primary-btn-active: rgba(255, 189, 228);
     --scrollbar-thin-thumb: #FFDEE7;
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: #FFBCD1;
