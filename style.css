@@ -39,7 +39,7 @@
     --primary-btn: #FFDEE75;
     --primary-btn-hover: rgba(255, 134, 166, 0.8);
     --primary-btn-active: rgba(255, 189, 228);
-    --scrollbar-thin-thumb: #FFDEE7;
+    --scrollbar-thin-thumb: #ff93b0;
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: #ff9fbd;
     --scrollbar-auto-track: #FF6E9D;
@@ -66,8 +66,8 @@
 
     --home-background: #ffb2ca;
     --bg-overlay-chat: #ffa2bd;
- 		--button-positive-background: #ffc8d6 !important;
-		--button-positive-background-hover: #ffc8d6 !important;
+ 		--button-positive-background: #ff86a4 !important;
+		--button-positive-background-hover: #ff96b1 !important;
     --button-secondary-background-hover: #FF5485;
     --button-outline-primary-background-hover: #FF468A !important;		
 	  --button-outline-primary-border-hover: #FF468A !important;		
@@ -126,7 +126,7 @@ div.uid_7.option-ayUaq.user-1dKxvu::after {
 .lookOutlined-3RTC7c.colorPrimary-2-Lusz:hover {
     background-color: #FF7194;
     border-color: #FF7194;
-    color: #ffa0b8;
+    color: #ff4674;
   }
   
 .childWrapper__01b9c {
@@ -217,13 +217,13 @@ div.uid_7.option-ayUaq.user-1dKxvu::after {
 }
 .selected-1sf9UK.item-2GWPIy, .selected-1sf9UK.item-2GWPIy:hover {
     cursor: default;
-    color: #FFC8DA;
+    color: #ff5890;
 }
 .highlight {
-    background-color: #FFB8CF;
+    background-color: #ff3776;
 }
 .eventStatusLabel-1og3vG {
-    color: #FFEDF3 !important;
+    color: #ff5c92 !important;
 }
 .lookInverted-2GrLaB.colorBrand-2M3O3N {
     color: var(--brand-experiment);
@@ -236,7 +236,7 @@ div.uid_7.option-ayUaq.user-1dKxvu::after {
     width: 100%;
     border-radius: 3px;
     color: var(--text-normal);
-    background-color: #FFE6EE;
+    background-color: #ce7c96;
     border: none;
     -webkit-transition: border-color .2s ease-in-out;
     transition: border-color .2s ease-in-out;
