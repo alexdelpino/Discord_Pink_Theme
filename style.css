@@ -9,12 +9,12 @@
     --interactive-hover: #FF5287;
     --interactive-active: #ff499e;
     --interactive-muted: hsla(0,0%,100%,.4);
-    --background-primary: #FFE0EA;
+    --background-primary: #c77e95;
     --background-secondary: #FFBCD1;
     --background-secondary-alt: #FFA9C4;
     --background-tertiary: #FD97B7;
     --background-accent: #FF7C9F;
-    --background-floating: #FFE0EA;
+    --background-floating: #d47f9a;
     --background-message-hover: #FCA9C2;
     --background-modifier-hover: #FC92B2;
     --background-modifier-active: #FF2467;
@@ -66,7 +66,7 @@
 
     --home-background: #FFE0EA;
     --bg-overlay-chat: #FFE2EA;
- 		--button-positive-background: #ffc8d6 !important;
+ 		--button-positive-background: #db7790 !important;
 		--button-positive-background-hover: #ffc8d6 !important;
     --button-secondary-background-hover: #FF5485;
     --button-outline-primary-background-hover: #FF468A !important;		
