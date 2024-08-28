@@ -25,7 +25,7 @@
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
     --channeltextarea-background: #FFADC4;
     --activity-card-background: #FFDCE6;
-    --deprecated-panel-background: #FF97B2;
+    --deprecated-panel-background: #ffd6e1; /*crec que color del fons de actividad*/
     --deprecated-card-bg: rgba(255,218,288,0.6);
     --deprecated-card-editable-bg: rgba(255,202,215,0.3);
     --deprecated-store-bg: #FFE4EB;
