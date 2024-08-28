@@ -15,8 +15,8 @@
     --background-tertiary: #FC92B0;
     --background-accent: #FF7C9F;
     --background-floating: #ffdae5; 
-    --background-message-hover: rgba(255, 192, 209,0.5);
-     --background-modifier-hover: #ffd9e4; /* Color del hover per servidors */
+    --background-message-hover: rgba(255, 128, 162, 0.5);
+     --background-modifier-hover: #ffa9c1; /* Color del hover per servidors */
     --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
     --background-modifier-selected: rgba(255,218,228,0.9); /* Fons una mica més fort */
     --background-modifier-accent: hsla(340, 100%, 86%, 0.7); 
@@ -27,7 +27,7 @@
     --activity-card-background: #FFDCE6;
     --deprecated-panel-background: #ffd6e1; /*crec que color del fons de actividad*/
     --deprecated-card-bg: rgba(255,218,288,0.6);
-    --deprecated-card-editable-bg: rgba(255,202,215,0.3);
+    --deprecated-card-editable-bg: rgba(255,202,215,0.7);
     --deprecated-store-bg: #FFE4EB;
     --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.4); 
