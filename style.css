@@ -1,5 +1,5 @@
 .theme-dark {
-    --header-primary: #d13089;
+    --header-primary: #ffee00;
     --header-secondary: #ff68a4;
     --text-normal: #ff5286; 
     --text-muted: hsl(341, 48%, 38%); 
@@ -14,7 +14,7 @@
     --background-secondary-alt: #FFA9C4;
     --background-tertiary: #FC92B0;
     --background-accent: #FF7C9F;
-    --background-floating: #ff87ab; 
+    --background-floating: hsl(343, 100%, 88%); 
     --background-message-hover: rgba(255, 214, 225, 0.5);
      --background-modifier-hover: #ffdde7; /* Color del hover per servidors */
     --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
