@@ -1,89 +1,92 @@
 .theme-dark {
     --header-primary: #FF7CB0;
     --header-secondary: #FFA0C6;
-    --text-normal: #FF6C99; /* Més saturat i encara llegible */
-    --text-muted: hsla(341,75%,50%,.6); /* Lleugerament més saturat */
-    --text-link: #FF4D86; /* No s'ha canviat per mantenir l'estil */
-    --channels-default: #FF7DA7; /* No s'ha canviat */
-    --interactive-normal: #FF66A3; /* Més saturat */
+    --text-normal: #FF6C99; 
+    --text-muted: hsla(341,75%,50%,.6); 
+    --text-link: #FF4D86;
+    --channels-default: #FF7DA7; 
+    --interactive-normal: #FF66A3; 
     --interactive-hover: #FF4D87;
-    --interactive-active: #ff499e; /* No s'ha canviat */
-    --interactive-muted: hsla(0,0%,100%,.4); /* No s'ha canviat */
-    --background-primary: #D0889C; /* Més saturat */
-    --background-secondary: #FFBCD1; /* No s'ha canviat */
-    --background-secondary-alt: #FFA9C4; /* No s'ha canviat */
-    --background-tertiary: #FC92B0; /* Lleugerament més saturat */
-    --background-accent: #FF7C9F; /* No s'ha canviat */
-    --background-floating: #D8889E; /* Més saturat */
-    --background-message-hover: #FCA9C2; /* No s'ha canviat */
-    --background-modifier-hover: #FC92B2; /* No s'ha canviat */
-    --background-modifier-active: #FF4180; /* Subratllat més visible */
-    --background-modifier-selected: rgba(255,94,152,0.9); /* No s'ha canviat */
-    --background-modifier-accent: hsla(0,0%,100%,0.1); /* Lleugerament més clar */
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05); /* No s'ha canviat */
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.24); /* No s'ha canviat */
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4); /* No s'ha canviat */
-    --channeltextarea-background: #FFADC4; /* No s'ha canviat */
-    --activity-card-background: #FFB2C6; /* No s'ha canviat */
-    --deprecated-panel-background: #FF97B2; /* Més saturat */
-    --deprecated-card-bg: rgba(255,218,288,0.6); /* No s'ha canviat */
-    --deprecated-card-editable-bg: rgba(255,202,215,0.3); /* No s'ha canviat */
-    --deprecated-store-bg: #FFE4EB; /* No s'ha canviat */
-    --deprecated-quickswitcher-input-background: var(--channeltextarea-background); /* No s'ha canviat */
-    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.4); /* Més visible */
-    --deprecated-text-input-bg: rgba(0,0,0,0.1); /* No s'ha canviat */
-    --deprecated-text-input-border: rgba(255,106,145,0.3); /* No s'ha canviat */
-    --deprecated-text-input-border-hover: #FF97B2; /* No s'ha canviat */
-    --deprecated-text-input-border-disabled: #FFB6C9; /* No s'ha canviat */
-    --deprecated-text-input-prefix: #DF6187; /* No s'ha canviat */
-    --primary-btn: #FFDEE7; /* No s'ha canviat */
-    --primary-btn-hover: rgba(255, 134, 166, 0.8); /* No s'ha canviat */
-    --primary-btn-active: rgba(255, 134, 166, 0.6); /* No s'ha canviat */
-    --scrollbar-thin-thumb: #FFDEE7; /* No s'ha canviat */
-    --scrollbar-thin-track: transparent; /* No s'ha canviat */
-    --scrollbar-auto-thumb: #FFBCD1; /* No s'ha canviat */
-    --scrollbar-auto-track: #FF6E9D; /* No s'ha canviat */
-    --scrollbar-auto-scrollbar-color-thumb: #FF7EAD; /* No s'ha canviat */
-    --scrollbar-auto-scrollbar-color-track: #FF5291; /* No s'ha canviat */
-    --elevation-stroke: 0 0 0 1px rgba(225,150,189,0.15); /* No s'ha canviat */
-    --primary-dark-600-rgb: rgba(255,116,168,.6); /* No s'ha canviat */
-    --primary-dark-800-rgb: rgba(225,116,168,.8); /* No s'ha canviat */
-    --channel-icon: #FF4B86; /* No s'ha canviat */
-    --text-positive: #FF1A64; /* No s'ha canviat */
-    --green-360: #FF1A64; /* No s'ha canviat */
+    --interactive-active: #ff499e;
+    --interactive-muted: hsla(0,0%,100%,.4);
+    --background-primary: #D0889C;
+    --background-secondary: #FFBCD1;
+    --background-secondary-alt: #FFA9C4;
+    --background-tertiary: #FC92B0;
+    --background-accent: #FF7C9F;
+    --background-floating: #E3B8C5; /* Ajustat a un color més clar per contrastar */
+    --background-message-hover: #FCA9C2;
+    --background-modifier-hover: #FFE2EA; /* Fons més clar per quan fas "hover" sobre usuaris */
+    --background-modifier-active: #FF4180; 
+    --background-modifier-selected: rgba(255,94,152,0.9);
+    --background-modifier-accent: hsla(0,0%,100%,0.1); 
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #FFADC4;
+    --activity-card-background: #FFB2C6;
+    --deprecated-panel-background: #FF97B2;
+    --deprecated-card-bg: rgba(255,218,288,0.6);
+    --deprecated-card-editable-bg: rgba(255,202,215,0.3);
+    --deprecated-store-bg: #FFE4EB;
+    --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.4); 
+    --deprecated-text-input-bg: rgba(0,0,0,0.1); 
+    --deprecated-text-input-border: rgba(255,106,145,0.3); 
+    --deprecated-text-input-border-hover: #FF97B2; 
+    --deprecated-text-input-border-disabled: #FFB6C9; 
+    --deprecated-text-input-prefix: #DF6187; 
+    --primary-btn: #FFDEE7;
+    --primary-btn-hover: rgba(255, 134, 166, 0.8); 
+    --primary-btn-active: rgba(255, 134, 166, 0.6); 
+    --scrollbar-thin-thumb: #FFDEE7; 
+    --scrollbar-thin-track: transparent; 
+    --scrollbar-auto-thumb: #FFBCD1; 
+    --scrollbar-auto-track: #FF6E9D; 
+    --scrollbar-auto-scrollbar-color-thumb: #FF7EAD; 
+    --scrollbar-auto-scrollbar-color-track: #FF5291;
+    --elevation-stroke: 0 0 0 1px rgba(225,150,189,0.15);
+    --primary-dark-600-rgb: rgba(255,116,168,.6); 
+    --primary-dark-800-rgb: rgba(225,116,168,.8); 
+    --channel-icon: #FF4B86;
+    --text-positive: #FF1A64; 
+    --green-360: #FF1A64; 
 
-    --primary-200-hsl: 344 calc(var(--saturation-factor, 1)*13%) 89.8%; /* Més saturat */
-    --primary-300-hsl: 344 calc(var(--saturation-factor, 1)*13%) 79.61%; /* Més saturat */
-    --primary-400-hsl: 344 calc(var(--saturation-factor, 1)*13%) 59.41%; /* Més saturat */
-    --primary-500-hsl: 344 calc(var(--saturation-factor, 1)*13.5%) 39.02%; /* Més saturat */
-    --primary-600-hsl: 345.34 calc(var(--saturation-factor, 1)*13.5%) 26.82%; /* Més saturat */
-    --primary-630-hsl: 345.37 calc(var(--saturation-factor, 1)*13.5%) 25.12%; /* Més saturat */
-    --primary-645-hsl: 345.39 calc(var(--saturation-factor, 1)*13.5%) 24.97%; /* Més saturat */
-    --primary-660-hsl: 345.41 calc(var(--saturation-factor, 1)*13.5%) 24.84%; /* Més saturat */
-    --primary-700-hsl: 345.43 calc(var(--saturation-factor, 1)*13.5%) 24.63%; /* Més saturat */
-    --primary-800-hsl: 345.59 calc(var(--saturation-factor, 1)*13.5%) 21.43%; /* Més saturat */
-    --primary-860-hsl: 345.91 calc(var(--saturation-factor, 1)*13.5%) 18.24%; /* Més saturat */
+    --primary-200-hsl: 344 calc(var(--saturation-factor, 1)*13%) 89.8%;
+    --primary-300-hsl: 344 calc(var(--saturation-factor, 1)*13%) 79.61%; 
+    --primary-400-hsl: 344 calc(var(--saturation-factor, 1)*13%) 59.41%; 
+    --primary-500-hsl: 344 calc(var(--saturation-factor, 1)*13.5%) 39.02%; 
+    --primary-600-hsl: 345.34 calc(var(--saturation-factor, 1)*13.5%) 26.82%; 
+    --primary-630-hsl: 345.37 calc(var(--saturation-factor, 1)*13.5%) 25.12%; 
+    --primary-645-hsl: 345.39 calc(var(--saturation-factor, 1)*13.5%) 24.97%; 
+    --primary-660-hsl: 345.41 calc(var(--saturation-factor, 1)*13.5%) 24.84%; 
+    --primary-700-hsl: 345.43 calc(var(--saturation-factor, 1)*13.5%) 24.63%; 
+    --primary-800-hsl: 345.59 calc(var(--saturation-factor, 1)*13.5%) 21.43%; 
+    --primary-860-hsl: 345.91 calc(var(--saturation-factor, 1)*13.5%) 18.24%; 
 
-    --home-background: #FFE0EA; /* No s'ha canviat */
-    --bg-overlay-chat: #FFE2EA; /* No s'ha canviat */
-    --button-positive-background: #db7790 !important; /* No s'ha canviat */
-    --button-positive-background-hover: #ffc8d6 !important; /* No s'ha canviat */
-    --button-secondary-background-hover: #FF5485; /* No s'ha canviat */
-    --button-outline-primary-background-hover: #FF468A !important; /* No s'ha canviat */		
-    --button-outline-primary-border-hover: #FF468A !important; /* No s'ha canviat */		
-    --button-outline-primary-text-hover: #FFD6E5 !important; /* No s'ha canviat */		
-    --button-outline-primary-background: #FF8EB8 !important; /* No s'ha canviat */		
-    --button-outline-primary-border: #FF8EB8 !important; /* No s'ha canviat */		
-    --button-outline-primary-text: #FFD6E5 !important; /* No s'ha canviat */		
-    --__spoiler-background-color--hidden--hover: #FF4F90 !important; /* No s'ha canviat */		
-    --__spoiler-border-color--hidden--hover: #FF4F90 !important; /* No s'ha canviat */		
-    --__spoiler-background-color--hidden: #FF5F9A !important; /* No s'ha canviat */		
-    --__spoiler-border-color--hidden: #FF5F9A !important; /* No s'ha canviat */		
-    --transparent: hsla(328, 100%, 67%, 0.00); /* No s'ha canviat */
+    --home-background: #FFE0EA;
+    --bg-overlay-chat: #FFE2EA; 
+    --button-positive-background: #db7790 !important; 
+    --button-positive-background-hover: #ffc8d6 !important; 
+    --button-secondary-background-hover: #FF5485; 
+    --button-outline-primary-background-hover: #FF468A !important; 
+    --button-outline-primary-border-hover: #FF468A !important; 
+    --button-outline-primary-text-hover: #FFD6E5 !important; 
+    --button-outline-primary-background: #FF8EB8 !important; 
+    --button-outline-primary-border: #FF8EB8 !important; 
+    --button-outline-primary-text: #FFD6E5 !important; 
+    --__spoiler-background-color--hidden--hover: #FF4F90 !important; 
+    --__spoiler-border-color--hidden--hover: #FF4F90 !important; 
+    --__spoiler-background-color--hidden: #FF5F9A !important; 
+    --__spoiler-border-color--hidden: #FF5F9A !important; 
+    --transparent: hsla(328, 100%, 67%, 0.00);
 
-    /* Textos dels noms d'usuari en línia */
-    --text-low: #FF5280; /* Més saturat i visible */
-    --text-low-muted: hsla
+    /* Ajustament del text en les targetes d'usuari */
+    --text-low: #D94673; /* Ajustat a un to més visible */
+    --text-low-muted: hsla(344,65%,50%,.6); /* Més saturat i visible */
+
+    /* Fons blanquinós per al hover de servidor */
+    --background-hover-light: #F8E8ED;
 
 
     
