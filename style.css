@@ -15,11 +15,11 @@
     --background-tertiary: #FC92B0;
     --background-accent: #FF7C9F;
     --background-floating: #ffdae5; 
-    --background-message-hover: #ffe7ee;
+    --background-message-hover: #ff98b6;
      --background-modifier-hover: #FFEEF3; /* Color del hover per servidors */
     --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
     --background-modifier-selected: rgba(255,218,228,0.9); /* Fons una mica més fort */
-    --background-modifier-accent: hsla(0,0%,100%,0.1); 
+    --background-modifier-accent: hsla(340, 100%, 86%, 0.7); 
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
