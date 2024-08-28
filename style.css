@@ -7,7 +7,7 @@
     --channels-default: #FF7DA7; 
     --interactive-normal: #FF66A3; 
     --interactive-hover: #FF4D87;
-    --interactive-active: #ff499e;
+  --interactive-active: #FFDCE6;
     --interactive-muted: hsla(0,0%,100%,.4);
     --background-primary: #D0889C;
     --background-secondary: #FFBCD1;
@@ -16,7 +16,7 @@
     --background-accent: #FF7C9F;
     --background-floating: #E3B8C5; 
     --background-message-hover: #FCA9C2;
-    --background-modifier-hover: #FFDAE4; /* Color del hover per servidors */
+     --background-modifier-hover: #FFEEF3; /* Color del hover per servidors */
     --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
     --background-modifier-selected: rgba(255,218,228,0.9); /* Fons una mica més fort */
     --background-modifier-accent: hsla(0,0%,100%,0.1); 
@@ -24,7 +24,7 @@
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
     --channeltextarea-background: #FFADC4;
-    --activity-card-background: #FFB2C6;
+    --activity-card-background: #FFDCE6;
     --deprecated-panel-background: #FF97B2;
     --deprecated-card-bg: rgba(255,218,288,0.6);
     --deprecated-card-editable-bg: rgba(255,202,215,0.3);
