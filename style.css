@@ -7,7 +7,7 @@
     --channels-default: #FF7DA7; 
     --interactive-normal: #FF66A3; 
     --interactive-hover: #FF4D87;
-  --interactive-active: #ff8bac;
+  --interactive-active: #FFDCE6;
     --interactive-muted: hsla(0, 100%, 50%, 0.4);
     --background-primary: #ffd0dd; /*fons de icones dafegir server*/
     --background-secondary: #FFBCD1;
@@ -28,7 +28,7 @@
     --deprecated-panel-background: #ffd6e1; /*crec que color del fons de actividad*/
     --deprecated-card-bg: rgba(255,218,288,0.6);
     --deprecated-card-editable-bg: rgba(255,202,215,0.7);
-    --deprecated-store-bg: #FFE4EB;
+    --deprecated-store-bg: #ff8fad;
     --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.4); 
     --deprecated-text-input-bg: rgba(0,0,0,0.1); 
