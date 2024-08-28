@@ -8,7 +8,7 @@
     --interactive-normal: #FF66A3; 
     --interactive-hover: #FF4D87;
   --interactive-active: #FFDCE6;
-    --interactive-muted: hsla(0, 100%, 82%, 0.4);
+    --interactive-muted: hsla(0, 100%, 50%, 0.4);
     --background-primary: #ffd0dd; /*fons de icones dafegir server*/
     --background-secondary: #FFBCD1;
     --background-secondary-alt: #FFA9C4;
@@ -16,9 +16,9 @@
     --background-accent: #FF7C9F;
     --background-floating: #ffdae5; 
     --background-message-hover: rgba(255, 214, 225, 0.5);
-     --background-modifier-hover: #ffa9c1; /* Color del hover per servidors */
+     --background-modifier-hover: #ffdde7; /* Color del hover per servidors */
     --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
-    --background-modifier-selected: rgba(255, 178, 198, 0.9); /* Fons una mica més fort */
+    --background-modifier-selected: rgba(255, 233, 239, 0.9); /* Fons una mica més fort */
     --background-modifier-accent: hsla(340, 100%, 86%, 0.7); 
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
