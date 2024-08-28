@@ -14,11 +14,11 @@
     --background-secondary-alt: #FFA9C4;
     --background-tertiary: #FC92B0;
     --background-accent: #FF7C9F;
-    --background-floating: #E3B8C5; /* Ajustat a un color més clar per contrastar */
+    --background-floating: #E3B8C5; 
     --background-message-hover: #FCA9C2;
-    --background-modifier-hover: #FFE2EA; /* Fons més clar per quan fas "hover" sobre usuaris */
-    --background-modifier-active: #FF4180; 
-    --background-modifier-selected: rgba(255,94,152,0.9);
+    --background-modifier-hover: #FFDAE4; /* Color del hover per servidors */
+    --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
+    --background-modifier-selected: rgba(255,218,228,0.9); /* Fons una mica més fort */
     --background-modifier-accent: hsla(0,0%,100%,0.1); 
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
@@ -81,12 +81,13 @@
     --__spoiler-border-color--hidden: #FF5F9A !important; 
     --transparent: hsla(328, 100%, 67%, 0.00);
 
-    /* Ajustament del text en les targetes d'usuari */
-    --text-low: #D94673; /* Ajustat a un to més visible */
-    --text-low-muted: hsla(344,65%,50%,.6); /* Més saturat i visible */
+    /* Ajustament per a la barra de "Amigos, En línea, Todos, Añadir..." */
+    --background-bar: #FFDAE4; /* Canviat a #ffdae4 */
+    --text-bar: #FFC2CC; /* Ajustat per contrastar millor amb el fons */
 
-    /* Fons blanquinós per al hover de servidor */
-    --background-hover-light: #F8E8ED;
+    /* Hover sobre els amics a la pantalla d'inici */
+    --background-friend-hover: rgba(255, 218, 228, 0.5); /* Hover amb opacitat baixa */
+
 
 
     
