@@ -15,14 +15,14 @@
     --background-tertiary: #FC92B0;
     --background-accent: #FF7C9F;
     --background-floating: #ffdae5; 
-    --background-message-hover: rgba(255, 128, 162, 0.5);
+    --background-message-hover: rgba(255, 202, 216, 0.5);
      --background-modifier-hover: #ffa9c1; /* Color del hover per servidors */
     --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
     --background-modifier-selected: rgba(255, 178, 198, 0.9); /* Fons una mica més fort */
     --background-modifier-accent: hsla(340, 100%, 86%, 0.7); 
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --guild-header-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
     --channeltextarea-background: #FFADC4;
     --activity-card-background: #FFDCE6;
     --deprecated-panel-background: #ffd6e1; /*crec que color del fons de actividad*/
