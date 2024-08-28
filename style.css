@@ -8,7 +8,7 @@
     --interactive-normal: #FF66A3; 
     --interactive-hover: #FF4D87;
   --interactive-active: #FFDCE6;
-    --interactive-muted: hsla(0,0%,100%,.4);
+    --interactive-muted: hsla(0, 100%, 65%, 0.4);
     --background-primary: #ffd0dd; /*fons de icones dafegir server*/
     --background-secondary: #FFBCD1;
     --background-secondary-alt: #FFA9C4;
@@ -18,7 +18,7 @@
     --background-message-hover: rgba(255, 128, 162, 0.5);
      --background-modifier-hover: #ffa9c1; /* Color del hover per servidors */
     --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
-    --background-modifier-selected: rgba(255,218,228,0.9); /* Fons una mica més fort */
+    --background-modifier-selected: rgba(255, 178, 198, 0.9); /* Fons una mica més fort */
     --background-modifier-accent: hsla(340, 100%, 86%, 0.7); 
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
@@ -74,7 +74,7 @@
     --button-outline-primary-text-hover: #FFD6E5 !important; 
     --button-outline-primary-background: #FF8EB8 !important; 
     --button-outline-primary-border: #FF8EB8 !important; 
-    --button-outline-primary-text: #FFD6E5 !important; 
+    --button-outline-primary-text: #ff9cc0 !important; 
     --__spoiler-background-color--hidden--hover: #FF4F90 !important; 
     --__spoiler-border-color--hidden--hover: #FF4F90 !important; 
     --__spoiler-background-color--hidden: #FF5F9A !important; 
@@ -86,7 +86,7 @@
     --text-bar: #FFC2CC; /* Ajustat per contrastar millor amb el fons */
 
     /* Hover sobre els amics a la pantalla d'inici */
-    --background-friend-hover: rgba(255, 218, 228, 0.5); /* Hover amb opacitat baixa */
+    --background-friend-hover: rgba(255, 154, 181, 0.5); /* Hover amb opacitat baixa */
 
 
 
@@ -221,7 +221,7 @@ div.uid_7.option-ayUaq.user-1dKxvu::after {
     color: #FFC8DA !important;
 }
 .descriptionText-2b5seS {
-    color: #ffe9f2;
+    color: #ffadcf;
 }
 .selected-1sf9UK.item-2GWPIy, .selected-1sf9UK.item-2GWPIy:hover {
     cursor: default;
@@ -231,7 +231,7 @@ div.uid_7.option-ayUaq.user-1dKxvu::after {
     background-color: #FFB8CF;
 }
 .eventStatusLabel-1og3vG {
-    color: #FFEDF3 !important;
+    color: #ffdce7 !important;
 }
 .lookInverted-2GrLaB.colorBrand-2M3O3N {
     color: var(--brand-experiment);
