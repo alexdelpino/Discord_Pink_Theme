@@ -1,92 +1,92 @@
 .theme-dark {
-    --header-primary: #ff0077;
-    --header-secondary: #ff68a4;
-    --text-normal: #ff5286; 
-    --text-muted: hsl(341, 48%, 38%); 
-    --text-link: #FF4D86;
-    --channels-default: #FF7DA7; 
-    --interactive-normal: #FF66A3; 
-    --interactive-hover: #FF4D87;
-  --interactive-active: #f324a4;
-    --interactive-muted: hsla(0, 100%, 50%, 0.4);
-    --background-primary: #ffd0dd; /*fons de icones dafegir server*/
-    --background-secondary: #FFBCD1;
-    --background-secondary-alt: #FFA9C4;
-    --background-tertiary: #FC92B0;
-    --background-accent: #FF7C9F;
-    --background-floating: hsl(343, 100%, 88%); 
-    --background-message-hover: rgba(255, 214, 225, 0.5);
-     --background-modifier-hover: #ffdde7; /* Color del hover per servidors */
-    --background-modifier-active: #FFC3D1; /* Fons suau per a l'element seleccionat a "Amigos, Nitro, Tienda" */
-    --background-modifier-selected: rgba(255, 233, 239, 0.9); /* Fons una mica més fort */
-    --background-modifier-accent: hsla(340, 100%, 86%, 0.7); 
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --header-primary: #007BFF; /* Blau principal per a l'encapçalament */
+    --header-secondary: #5A9BF1; /* Blau més suau per a l'encapçalament secundari */
+    --text-normal: #3399FF; /* Blau per al text normal */
+    --text-muted: hsl(210, 50%, 60%); /* Blau suau per al text atenuat */
+    --text-link: #007BFF; /* Blau per als enllaços */
+    --channels-default: #66B2FF; /* Blau suau per als canals */
+    --interactive-normal: #66B2FF; /* Blau per als botons en l'estat normal */
+    --interactive-hover: #3399FF; /* Blau més fosc per als botons en hover */
+    --interactive-active: #007BFF; /* Blau fosc per als botons actius */
+    --interactive-muted: hsla(210, 100%, 50%, 0.4); /* Blau suau i atenuat */
+    --background-primary: #E6F0FF; /* Blau clar per al fons primari */
+    --background-secondary: #CCE4FF; /* Blau més fosc per al fons secundari */
+    --background-secondary-alt: #B3D9FF; /* Blau alternatiu per al fons secundari */
+    --background-tertiary: #99C2FF; /* Blau suau per al fons terciari */
+    --background-accent: #80B3FF; /* Blau accentuat */
+    --background-floating: #C4D9FF; /* Blau suau per als elements flotants */
+    --background-message-hover: rgba(200, 220, 255, 0.5); /* Blau suau amb opacitat baixa per a missatges en hover */
+    --background-modifier-hover: #E6F2FF; /* Blau clar per al hover dels servidors */
+    --background-modifier-active: #CCE4FF; /* Blau per l'element seleccionat a "Amigos, Nitro, Tienda" */
+    --background-modifier-selected: rgba(200, 220, 255, 0.9); /* Blau una mica més fort per als elements seleccionats */
+    --background-modifier-accent: hsla(210, 100%, 85%, 0.7); /* Blau accentuat amb opacitat */
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2), 0 1.5px 0 rgba(6,6,7,0.05), 0 2px 0 rgba(4,4,5,0.05);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-    --guild-header-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
-    --channeltextarea-background: #FFADC4;
-    --activity-card-background: #FFDCE6;
-    --deprecated-panel-background: #ffd6e1; /*crec que color del fons de actividad*/
-    --deprecated-card-bg: rgba(255,218,288,0.6);
-    --deprecated-card-editable-bg: rgba(255,202,215,0.7);
-    --deprecated-store-bg: #ff8fad;
-    --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
-    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.4); 
-    --deprecated-text-input-bg: rgba(0,0,0,0.1); 
-    --deprecated-text-input-border: rgba(255,106,145,0.3); 
-    --deprecated-text-input-border-hover: #FF97B2; 
-    --deprecated-text-input-border-disabled: #FFB6C9; 
-    --deprecated-text-input-prefix: #DF6187; 
-    --primary-btn: #FFDEE7;
-    --primary-btn-hover: rgba(255, 134, 166, 0.8); 
-    --primary-btn-active: rgba(255, 134, 166, 0.6); 
-    --scrollbar-thin-thumb: #FFDEE7; 
-    --scrollbar-thin-track: transparent; 
-    --scrollbar-auto-thumb: #FFBCD1; 
-    --scrollbar-auto-track: #FF6E9D; 
-    --scrollbar-auto-scrollbar-color-thumb: #FF7EAD; 
-    --scrollbar-auto-scrollbar-color-track: #FF5291;
-    --elevation-stroke: 0 0 0 1px rgba(225,150,189,0.15);
-    --primary-dark-600-rgb: rgba(255,116,168,.6); 
-    --primary-dark-800-rgb: rgba(225,116,168,.8); 
-    --channel-icon: #FF4B86;
-    --text-positive: #FF1A64; 
-    --green-360: #FF1A64; 
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); /* Ombratge text del capçalera del servidor */
+    --channeltextarea-background: #CCE4FF; /* Blau per a l'àrea de text del canal */
+    --activity-card-background: #E6F0FF; /* Blau suau per a la targeta d'activitat */
+    --deprecated-panel-background: #D6E6FF; /* Blau clar per al fons del panell obsolet */
+    --deprecated-card-bg: rgba(200, 220, 255, 0.6); /* Blau clar per a la targeta obsoleta */
+    --deprecated-card-editable-bg: rgba(180, 200, 255, 0.7); /* Blau clar per a la targeta editable obsoleta */
+    --deprecated-store-bg: #B3D9FF; /* Blau per al fons de la botiga obsoleta */
+    --deprecated-quickswitcher-input-background: var(--channeltextarea-background); /* Blau per al fons de l'input del canvi ràpid */
+    --deprecated-quickswitcher-input-placeholder: hsla(210, 100%, 90%, 0.4); /* Blau suau per al placeholder */
+    --deprecated-text-input-bg: rgba(0,0,0,0.1); /* Fons de l'input de text obsolet */
+    --deprecated-text-input-border: rgba(0,0,0,0.3); /* Borda de l'input de text obsolet */
+    --deprecated-text-input-border-hover: #99C2FF; /* Borda de l'input de text obsolet en hover */
+    --deprecated-text-input-border-disabled: #B3D9FF; /* Borda de l'input de text obsolet desactivat */
+    --deprecated-text-input-prefix: #66B2FF; /* Prefix de l'input de text obsolet */
+    --primary-btn: #E6F0FF; /* Blau clar per al botó primari */
+    --primary-btn-hover: rgba(200, 220, 255, 0.8); /* Blau suau per al botó primari en hover */
+    --primary-btn-active: rgba(200, 220, 255, 0.6); /* Blau suau per al botó primari actiu */
+    --scrollbar-thin-thumb: #E6F0FF; /* Blau clar per al thumb de la barra de desplaçament fina */
+    --scrollbar-thin-track: transparent; /* Transparent per al track de la barra de desplaçament fina */
+    --scrollbar-auto-thumb: #CCE4FF; /* Blau per al thumb de la barra de desplaçament automàtica */
+    --scrollbar-auto-track: #B3D9FF; /* Blau per al track de la barra de desplaçament automàtica */
+    --scrollbar-auto-scrollbar-color-thumb: #99C2FF; /* Blau per al color del thumb de la barra de desplaçament automàtica */
+    --scrollbar-auto-scrollbar-color-track: #80B3FF; /* Blau per al color del track de la barra de desplaçament automàtica */
+    --elevation-stroke: 0 0 0 1px rgba(200, 220, 255, 0.15); /* Blau suau per a l'estil d'elevació */
+    --primary-dark-600-rgb: rgba(0, 123, 255, 0.6); /* Blau fosc (RGB) */
+    --primary-dark-800-rgb: rgba(0, 102, 204, 0.8); /* Blau més fosc (RGB) */
+    --channel-icon: #3399FF; /* Blau per a la icona del canal */
+    --text-positive: #007BFF; /* Blau per al text positiu */
+    --green-360: #007BFF; /* Ajustat al mateix blau per a la tonalitat de verd */
+    
+    --primary-200-hsl: 210 calc(var(--saturation-factor, 1)*13%) 89.8%;
+    --primary-300-hsl: 210 calc(var(--saturation-factor, 1)*13%) 79.61%;
+    --primary-400-hsl: 210 calc(var(--saturation-factor, 1)*13%) 59.41%;
+    --primary-500-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 39.02%;
+    --primary-600-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 26.82%;
+    --primary-630-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 25.12%;
+    --primary-645-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 24.97%;
+    --primary-660-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 24.84%;
+    --primary-700-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 24.63%;
+    --primary-800-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 21.43%;
+    --primary-860-hsl: 210 calc(var(--saturation-factor, 1)*13.5%) 18.24%;
 
-    --primary-200-hsl: 344 calc(var(--saturation-factor, 1)*13%) 89.8%;
-    --primary-300-hsl: 344 calc(var(--saturation-factor, 1)*13%) 79.61%; 
-    --primary-400-hsl: 344 calc(var(--saturation-factor, 1)*13%) 59.41%; 
-    --primary-500-hsl: 344 calc(var(--saturation-factor, 1)*13.5%) 39.02%; 
-    --primary-600-hsl: 345.34 calc(var(--saturation-factor, 1)*13.5%) 26.82%; 
-    --primary-630-hsl: 345.37 calc(var(--saturation-factor, 1)*13.5%) 25.12%; 
-    --primary-645-hsl: 345.39 calc(var(--saturation-factor, 1)*13.5%) 24.97%; 
-    --primary-660-hsl: 345.41 calc(var(--saturation-factor, 1)*13.5%) 24.84%; 
-    --primary-700-hsl: 345.43 calc(var(--saturation-factor, 1)*13.5%) 24.63%; 
-    --primary-800-hsl: 345.59 calc(var(--saturation-factor, 1)*13.5%) 21.43%; 
-    --primary-860-hsl: 345.91 calc(var(--saturation-factor, 1)*13.5%) 18.24%; 
-
-    --home-background: #FFE0EA;
-    --bg-overlay-chat: #FFE2EA; 
-    --button-positive-background: #ff8ba8 !important; 
-    --button-positive-background-hover: #ffb4c7 !important; 
-    --button-secondary-background-hover: #FF5485; 
-    --button-outline-primary-background-hover: #FF468A !important; 
-    --button-outline-primary-border-hover: #FF468A !important; 
-    --button-outline-primary-text-hover: #FFD6E5 !important; 
-    --button-outline-primary-background: #FF8EB8 !important; 
-    --button-outline-primary-border: #FF8EB8 !important; 
-    --button-outline-primary-text: #ff9cc0 !important; 
-    --__spoiler-background-color--hidden--hover: #FF4F90 !important; 
-    --__spoiler-border-color--hidden--hover: #FF4F90 !important; 
-    --__spoiler-background-color--hidden: #FF5F9A !important; 
-    --__spoiler-border-color--hidden: #FF5F9A !important; 
-    --transparent: hsla(328, 100%, 67%, 0.00);
-
+    --home-background: #E6F0FF; /* Blau clar per al fons de la pàgina d'inici */
+    --bg-overlay-chat: #CCE4FF; /* Blau suau per al fons de l'overlay del xat */
+    --button-positive-background: #99C2FF !important; /* Blau suau per al fons dels botons positius */
+    --button-positive-background-hover: #80B3FF !important; /* Blau més fosc per al fons dels botons positius en hover */
+    --button-secondary-background-hover: #66B2FF; /* Blau per al fons dels botons secundaris en hover */
+    --button-outline-primary-background-hover: #007BFF !important; /* Blau per al fons dels botons de contorn primari en hover */
+    --button-outline-primary-border-hover: #007BFF !important; /* Blau per a la borda dels botons de contorn primari en hover */
+    --button-outline-primary-text-hover: #E6F0FF !important; /* Blau clar per al text dels botons de contorn primari en hover */
+    --button-outline-primary-background: #3399FF !important; /* Blau per al fons dels botons de contorn primari */
+    --button-outline-primary-border: #3399FF !important; /* Blau per a la borda dels botons de contorn primari */
+    --button-outline-primary-text: #E6F0FF !important; /* Blau clar per al text dels botons de contorn primari */
+    --__spoiler-background-color--hidden--hover: #007BFF !important; /* Blau per al fons dels spoilers ocults en hover */
+    --__spoiler-border-color--hidden--hover: #007BFF !important; /* Blau per a la borda dels spoilers ocults en hover */
+    --__spoiler-background-color--hidden: #3399FF !important; /* Blau per al fons dels spoilers ocults */
+    --__spoiler-border-color--hidden: #3399FF !important; /* Blau per a la borda dels spoilers ocults */
+    --transparent: hsla(210, 100%, 67%, 0.00); /* Transparent amb tonalitat de blau */
+    
     /* Ajustament per a la barra de "Amigos, En línea, Todos, Añadir..." */
-    --background-bar: #FFDAE4; /* Canviat a #ffdae4 */
-    --text-bar: #FFC2CC; /* Ajustat per contrastar millor amb el fons */
-
+    --background-bar: #E6F0FF; /* Blau clar per a la barra */
+    --text-bar: #007BFF; /* Blau per al text de la barra */
+    
     /* Hover sobre els amics a la pantalla d'inici */
-    --background-friend-hover: rgba(255, 154, 181, 0.5); /* Hover amb opacitat baixa */
+    --background-friend-hover: rgba(200, 220, 255, 0.5); /* Blau suau amb opacitat baixa */
 
 
 
