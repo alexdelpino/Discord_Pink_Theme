@@ -2,13 +2,13 @@
     --header-primary: #FF7CB0;
     --header-secondary: #FFA0C6;
     --text-normal: #FF6C99; 
-    --text-muted: hsla(341,75%,50%,.6); 
+    --text-muted: hsl(341, 48%, 38%); 
     --text-link: #FF4D86;
     --channels-default: #FF7DA7; 
     --interactive-normal: #FF66A3; 
     --interactive-hover: #FF4D87;
   --interactive-active: #FFDCE6;
-    --interactive-muted: hsla(0, 100%, 65%, 0.4);
+    --interactive-muted: hsla(0, 100%, 82%, 0.4);
     --background-primary: #ffd0dd; /*fons de icones dafegir server*/
     --background-secondary: #FFBCD1;
     --background-secondary-alt: #FFA9C4;
