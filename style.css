@@ -1,86 +1,85 @@
 .theme-dark {
-    --header-primary: #FF7CB0;
-    --header-secondary: #FFA0C6;
-    --text-normal: #FF598F;
-    --text-muted: hsla(341,68%,38%,.6);
-    --text-link: #FF4D86;
-    --channels-default: #FF7DA7;
-    --interactive-normal: #E96590;
-    --interactive-hover: #FF5287;
-    --interactive-active: #ff499e;
-    --interactive-muted: hsla(0,0%,100%,.4);
-    --background-primary: #c77e95;
-    --background-secondary: #FFBCD1;
-    --background-secondary-alt: #FFA9C4;
-    --background-tertiary: #FD97B7;
-    --background-accent: #FF7C9F;
-    --background-floating: #d47f9a;
-    --background-message-hover: #FCA9C2;
-    --background-modifier-hover: #FC92B2;
-    --background-modifier-active: #FF2467;
-    --background-modifier-selected: rgba(255,94,152,0.9);
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    --channeltextarea-background: #FFADC4;
-    --activity-card-background: #FFB2C6;
-    --deprecated-panel-background: #FFA2BA;
-    --deprecated-card-bg: rgba(255,218,288,0.6);
-    --deprecated-card-editable-bg: rgba(255,202,215,0.3);
-    --deprecated-store-bg: #FFE4EB;
+    --header-primary: #FF6299;
+    --header-secondary: #FF88B1;
+    --text-normal: #FF3877; /* Més fosc per contrastar millor */
+    --text-muted: hsla(341,68%,45%,.6); /* Lleugerament més fosc */
+    --text-link: #FF3367; /* Més fosc per millorar la visibilitat */
+    --channels-default: #FF5D8C;
+    --interactive-normal: #E74A7C;
+    --interactive-hover: #FF396A;
+    --interactive-active: #ff2c80;
+    --interactive-muted: hsla(0,0%,100%,.5);
+    --background-primary: #b2677d; /* Més fosc per evitar confusió amb el text */
+    --background-secondary: #EFA7BC; 
+    --background-secondary-alt: #E68CA3;
+    --background-tertiary: #E07A92;
+    --background-accent: #FF6682;
+    --background-floating: #c36b7f;
+    --background-message-hover: #E994A8;
+    --background-modifier-hover: #E78098;
+    --background-modifier-active: #FF1955;
+    --background-modifier-selected: rgba(255,70,120,0.9);
+    --background-modifier-accent: hsla(0,0%,100%,0.08); /* Lleugerament més clar */
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.3),0 1.5px 0 rgba(6,6,7,0.1),0 2px 0 rgba(4,4,5,0.1); /* Augmentat per millorar l'efecte */
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.3); /* Augmentat per major contrast */
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.5); /* Més fosc per fer el text més llegible */
+    --channeltextarea-background: #FF97B0;
+    --activity-card-background: #FFA1B7;
+    --deprecated-panel-background: #E58BA1;
+    --deprecated-card-bg: rgba(255,200,248,0.6);
+    --deprecated-card-editable-bg: rgba(255,182,200,0.3);
+    --deprecated-store-bg: #F8CAD6;
     --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
-    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-    --deprecated-text-input-bg: rgba(0,0,0,0.1);
-    --deprecated-text-input-border: rgba(255,106,145,0.3);
-    --deprecated-text-input-border-hover: #FF97B2;
-    --deprecated-text-input-border-disabled: #FFB6C9;
-    --deprecated-text-input-prefix: #DF6187;
-    --primary-btn: #FFDEE75;
-    --primary-btn-hover: rgba(255, 134, 166, 0.8);
-    --primary-btn-active: rgba(255, 134, 166, 0.6);
-    --scrollbar-thin-thumb: #FFDEE7;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.4);
+    --deprecated-text-input-bg: rgba(0,0,0,0.15);
+    --deprecated-text-input-border: rgba(255,106,145,0.4);
+    --deprecated-text-input-border-hover: #FF7C9B;
+    --deprecated-text-input-border-disabled: #FF99AD;
+    --deprecated-text-input-prefix: #CC5E7A;
+    --primary-btn: #FFB5C4;
+    --primary-btn-hover: rgba(255, 100, 130, 0.8);
+    --primary-btn-active: rgba(255, 100, 130, 0.6);
+    --scrollbar-thin-thumb: #FFC2D0;
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #FFBCD1;
-    --scrollbar-auto-track: #FF6E9D;
-    --scrollbar-auto-scrollbar-color-thumb: #FF7EAD;
-    --scrollbar-auto-scrollbar-color-track: #FF5291;
-    --elevation-stroke: 0 0 0 1px rgba(225,150,189,0.15);
-    --primary-dark-600-rgb: rgba(255,116,168,.6);
-    --primary-dark-800-rgb: rgba(225,116,168,.8);
-    --channel-icon: #FF4B86;
-  	--text-positive: #FF1A64;
-  	--green-360: #FF1A64; 
-    
-    --primary-200-hsl: 344 calc(var(--saturation-factor, 1)*11.54%) 89.8%;
-    --primary-300-hsl: 344 calc(var(--saturation-factor, 1)*11.54%) 79.61%;
-    --primary-400-hsl: 344 calc(var(--saturation-factor, 1)*11.54%) 59.41%;
-    --primary-500-hsl: 344 calc(var(--saturation-factor, 1)*11.96%) 39.02%;
-    --primary-600-hsl: 345.34 calc(var(--saturation-factor, 1)*11.65%) 26.82%;
-    --primary-630-hsl: 345.37 calc(var(--saturation-factor, 1)*11.66%) 25.12%;
-    --primary-645-hsl: 345.39 calc(var(--saturation-factor, 1)*11.67%) 24.97%;
-    --primary-660-hsl: 345.41 calc(var(--saturation-factor, 1)*11.67%) 24.84%;
-    --primary-700-hsl: 345.43 calc(var(--saturation-factor, 1)*11.68%) 24.63%;
-    --primary-800-hsl: 345.59 calc(var(--saturation-factor, 1)*11.72%) 21.43%;
-    --primary-860-hsl: 345.91 calc(var(--saturation-factor, 1)*11.83%) 18.24%;
+    --scrollbar-auto-thumb: #FFA4B9;
+    --scrollbar-auto-track: #FF638B;
+    --scrollbar-auto-scrollbar-color-thumb: #FF7D99;
+    --scrollbar-auto-scrollbar-color-track: #FF3A6E;
+    --elevation-stroke: 0 0 0 1px rgba(225,150,189,0.2); /* Augmentat per major definició */
+    --primary-dark-600-rgb: rgba(255,80,128,.6);
+    --primary-dark-800-rgb: rgba(225,80,128,.8);
+    --channel-icon: #FF3367;
+    --text-positive: #FF1A64;
+    --green-360: #FF1A64; 
 
-    --home-background: #FFE0EA;
-    --bg-overlay-chat: #FFE2EA;
- 		--button-positive-background: #db7790 !important;
-		--button-positive-background-hover: #ffc8d6 !important;
-    --button-secondary-background-hover: #FF5485;
-    --button-outline-primary-background-hover: #FF468A !important;		
-	  --button-outline-primary-border-hover: #FF468A !important;		
-	  --button-outline-primary-text-hover: #FFD6E5 !important;		
-	  --button-outline-primary-background: #FF8EB8 !important;		
-	  --button-outline-primary-border: #FF8EB8 !important;		
-	  --button-outline-primary-text: #FFD6E5 !important;		
-	  --__spoiler-background-color--hidden--hover: #FF4F90 !important;		
-	  --__spoiler-border-color--hidden--hover: #FF4F90 !important;		
-	  --__spoiler-background-color--hidden: #FF5F9A !important;		
-	  --__spoiler-border-color--hidden: #FF5F9A !important;		
-	  --transparent: hsla(328, 100%, 67%, 0.00); 
+    --primary-200-hsl: 344 calc(var(--saturation-factor, 1)*15%) 87%;
+    --primary-300-hsl: 344 calc(var(--saturation-factor, 1)*15%) 77%;
+    --primary-400-hsl: 344 calc(var(--saturation-factor, 1)*15%) 57%;
+    --primary-500-hsl: 344 calc(var(--saturation-factor, 1)*15%) 37%;
+    --primary-600-hsl: 345.34 calc(var(--saturation-factor, 1)*15%) 24%;
+    --primary-630-hsl: 345.37 calc(var(--saturation-factor, 1)*15%) 23%;
+    --primary-645-hsl: 345.39 calc(var(--saturation-factor, 1)*15%) 22.5%;
+    --primary-660-hsl: 345.41 calc(var(--saturation-factor, 1)*15%) 22.3%;
+    --primary-700-hsl: 345.43 calc(var(--saturation-factor, 1)*15%) 22%;
+    --primary-800-hsl: 345.59 calc(var(--saturation-factor, 1)*15%) 19%;
+    --primary-860-hsl: 345.91 calc(var(--saturation-factor, 1)*15%) 16%;
 
+    --home-background: #FFB8C8;
+    --bg-overlay-chat: #FFBACB;
+    --button-positive-background: #c9677e !important;
+    --button-positive-background-hover: #ffb3c2 !important;
+    --button-secondary-background-hover: #FF396A;
+    --button-outline-primary-background-hover: #FF2C6F !important;		
+    --button-outline-primary-border-hover: #FF2C6F !important;		
+    --button-outline-primary-text-hover: #FFBFCF !important;		
+    --button-outline-primary-background: #FF5D8C !important;		
+    --button-outline-primary-border: #FF5D8C !important;		
+    --button-outline-primary-text: #FFBFCF !important;		
+    --__spoiler-background-color--hidden--hover: #FF2F74 !important;		
+    --__spoiler-border-color--hidden--hover: #FF2F74 !important;		
+    --__spoiler-background-color--hidden: #FF407D !important;		
+    --__spoiler-border-color--hidden: #FF407D !important;		
+    --transparent: hsla(328, 100%, 57%, 0.00); 
 
 
 }
